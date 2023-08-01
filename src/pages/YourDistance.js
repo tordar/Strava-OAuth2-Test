@@ -5,7 +5,7 @@ const YourDistance = ({ user, returnTokens }) => {
     return (
         <div>
             <h1>Hi, {returnTokens.athlete.firstname}!</h1>
-            <h2>{user.data.all_run_totals.distance}</h2>
+            <h2>{user.data.all_run_totals.distance} Is the total distance</h2>
             <h2>{user.data.all_ride_totals.distance}</h2>
             <h2>{user.data.all_swim_totals.distance}</h2>
         </div>
